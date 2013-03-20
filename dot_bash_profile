@@ -2,4 +2,8 @@
 #. "$HOME/.rvm/scripts/rvm" 
 #[[ -s "$HOME/.rvm/scripts/rvm" ]] &&  "$HOME/.rvm/scripts/rvm" 
 [[ -s "$HOME/.rvm/scripts/rvm" ]] && . "$HOME/.rvm/scripts/rvm" # Load RVM function
+
+alias ll='ls -ll'
+alias la='ls -la'
 source ~/.profile
+source ~/assets/shellscripts/dot_git-completion.bash
