@@ -1,23 +1,11 @@
-M2_HOME=/Applications/development/apache-maven-3.0.4
-ANT_HOME=/Applications/development/apache-ant-1.8.4
-M2=$M2_HOME/bin
 
 PATH=$PATH:$M2:$ANT_HOME/bin:/usr/local/share/python
 
-dev=/Users/michaeltruong/Development/jboss-cake/git
-testenv=/Users/michaeltruong/Development/jboss-cake/testing/testenv
 
 
-export PATH dev testenv
-##
-# Your previous /Users/michaeltruong/.profile file was backed up as /Users/michaeltruong/.profile.macports-saved_2012-08-13_at_10:49:44
-##
+export PATH 
 
-# MacPorts Installer addition on 2012-08-13_at_10:49:44: adding an appropriate PATH variable for use with MacPorts.
-export PATH=/opt/local/bin:/opt/local/sbin:$PATH
-# Finished adapting your PATH environment variable for use with MacPorts.
 
-export WORKON_HOME=~/.virtualenvs/
+export WORKON_HOME=~/assets/virtualenvs/
 source /usr/local/bin/virtualenvwrapper.sh
 export PS1="\u@\h: \w\n$ "
-#source ~/.vimrc
